@@ -1,0 +1,15 @@
+/Users/veronikanema/Documents/GitHub/Lab_4/Lab_4/bin/Debug/net9.0/Lab_4
+/Users/veronikanema/Documents/GitHub/Lab_4/Lab_4/bin/Debug/net9.0/Lab_4.deps.json
+/Users/veronikanema/Documents/GitHub/Lab_4/Lab_4/bin/Debug/net9.0/Lab_4.runtimeconfig.json
+/Users/veronikanema/Documents/GitHub/Lab_4/Lab_4/bin/Debug/net9.0/Lab_4.dll
+/Users/veronikanema/Documents/GitHub/Lab_4/Lab_4/bin/Debug/net9.0/Lab_4.pdb
+/Users/veronikanema/Documents/GitHub/Lab_4/Lab_4/obj/Debug/net9.0/Lab_4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/veronikanema/Documents/GitHub/Lab_4/Lab_4/obj/Debug/net9.0/Lab_4.AssemblyInfoInputs.cache
+/Users/veronikanema/Documents/GitHub/Lab_4/Lab_4/obj/Debug/net9.0/Lab_4.AssemblyInfo.cs
+/Users/veronikanema/Documents/GitHub/Lab_4/Lab_4/obj/Debug/net9.0/Lab_4.csproj.CoreCompileInputs.cache
+/Users/veronikanema/Documents/GitHub/Lab_4/Lab_4/obj/Debug/net9.0/Lab_4.sourcelink.json
+/Users/veronikanema/Documents/GitHub/Lab_4/Lab_4/obj/Debug/net9.0/Lab_4.dll
+/Users/veronikanema/Documents/GitHub/Lab_4/Lab_4/obj/Debug/net9.0/refint/Lab_4.dll
+/Users/veronikanema/Documents/GitHub/Lab_4/Lab_4/obj/Debug/net9.0/Lab_4.pdb
+/Users/veronikanema/Documents/GitHub/Lab_4/Lab_4/obj/Debug/net9.0/Lab_4.genruntimeconfig.cache
+/Users/veronikanema/Documents/GitHub/Lab_4/Lab_4/obj/Debug/net9.0/ref/Lab_4.dll
