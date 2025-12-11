@@ -1,5 +1,5 @@
 using UserClass;
-
+using InternetConnectionClass;
 namespace Guestclass{
 
    public class GuestUser : User

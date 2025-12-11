@@ -1,6 +1,7 @@
 ﻿using InternetConnectionClass;
 using UserClass;
-
+using AdminClass;
+using Guestclass;
 class Programe
 {
     

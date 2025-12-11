@@ -1,5 +1,6 @@
 using System.Reflection.Metadata;
 using UserClass;
+using InternetConnectionClass;
 
 namespace AdminClass
 {
@@ -10,7 +11,7 @@ namespace AdminClass
 
         public AdminUser(string name, InternetConnection connection, string accesLevel) : base(name, connection)
         {
-            AccessLevel = AccessLevelLevel;
+            AccessLevel = accesLevel;
         }
 
         public override void ShowInfo()
