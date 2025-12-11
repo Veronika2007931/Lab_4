@@ -9,28 +9,21 @@ class Programe
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
         InternetConnection sharedConnection = new InternetConnection("192.168.1.1", 100);
-        User admin = new User("Veronika", "Admin", sharedConnection);
+     
 
-        admin.ShowInfo();
+        AdminUser adminTemplate = new AdminUser("Veronika", sharedConnection, "High");
+        GuestUser guestTemplate = new GuestUser("Vova", sharedConnection, DateTime.Now.AddHours(2));
 
-        User guest = (User)admin.Clone();
-        guest.Name = "Volodymyr";
-        guest.Role = "Visitor";
+        AdminUser newAdmin = (AdminUser)adminTemplate.Clone();
+        newAdmin.Name = "Karina";
+        newAdmin.ShowInfo();
 
-        admin.ShowInfo();
-        guest.ShowInfo();
+        GuestUser newGuest = (GuestUser)guestTemplate.Clone();
+            newGuest.Name = "Natalia";
+            newGuest.ShowInfo();
 
-        bool isSameConnection = ReferenceEquals(admin.Connection, guest.Connection);
-        Console.WriteLine($"Чи є з'єднання одним і тим самим об'єктом? -> {isSameConnection}");
-        if (isSameConnection)
-        {
-            Console.WriteLine("Успіх! З'єднання не дублювалося.");
+bool sameNet = ReferenceEquals(newAdmin.Connection, newGuest.Connection);
+            Console.WriteLine($"Інтернет спільний для Адміна і Гостя? -> {sameNet}");
         }
-        else
-        {
-            Console.WriteLine("Помилка! З'єднання було скопійовано.");
-        }
-
-        
     }
-}
+
